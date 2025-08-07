@@ -14,7 +14,7 @@ The system is built on a multi-agent architecture, where each agent has a specia
 * **Retrieval Agent**: Manages the vector store. When a user asks a question, this agent converts the query into an embedding and retrieves the most relevant document chunks from the vector store.
 * **LLM Response Agent**: Receives the user's query and the retrieved context from the Retrieval Agent. It then constructs a precise prompt to send to the Cohere language model to generate a final, human-readable answer.
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/06f72f1d-bae8-45ce-8d84-12cafb0a3831" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/06f72f1d-bae8-45ce-8d84-12cafb0a3831" />
 
 
 ---
@@ -22,10 +22,10 @@ The system is built on a multi-agent architecture, where each agent has a specia
 ## Key Features
 
 * **Multi-Format Document Support**: Ingests and analyzes various document types, including **PDF, DOCX, PPTX, CSV, and TXT**.
-* **Agent-Based Workflow**: Utilizes distinct agents for ingestion, retrieval, and response generation, ensuring a modular and scalable design[cite: 18].
-* **Advanced LLM Integration**: Leverages the powerful **Cohere Command R+** model for accurate and context-aware answer generation.
-* **Efficient Vector Search**: Employs **TF-IDF** for embeddings and **FAISS** for fast, in-memory similarity searches[cite: 37, 40].
-* **Interactive Chat Interface**: A clean and modern UI built with **Streamlit** that supports file uploads and displays conversations in a chat-like format.
+* **Agent-Based Workflow**: Utilizes distinct agents for ingestion, retrieval, and response generation, ensuring a modular and scalable design.
+* **Advanced LLM Integration**: Leverages the powerful **gemini-2.5-flash-lite** model for accurate and context-aware answer generation.
+* **Efficient Vector Search**: Employs **all-MiniLM-L6-v2** for embeddings and **FAISS** for fast, in-memory similarity searches.
+* **Interactive Chat Interface**: A clean and modern UI built with **ipywidgets** that supports file uploads and displays conversations in a chat-like format.
 
 ---
 
